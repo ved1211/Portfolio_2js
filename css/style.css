@@ -11,7 +11,9 @@ body {
   font-family: 'Poppins', sans-serif;
   position: relative;
   height: 100%;
-  background: #1A232C;
+  background: #4b6777;
+
+;
   color: white;
 }
 
@@ -29,8 +31,34 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: #ce9e62;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ce9e62;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 header {
-  background: #1A232C;
+  background: #4b6777;
+
+;
 }
 
 .navbar {
@@ -72,13 +100,13 @@ header {
 }
 
 .nav-link:hover {
-  color: #20C863;
-  border-bottom: 2px solid #20C863;
+  color: #ce9e62;
+  border-bottom: 2px solid #ce9e62;
 }
 
 .nav-link.active {
-  color: #20C863;
-  border-bottom: 2px solid #20C863;
+  color: #ce9e62;
+  border-bottom: 2px solid #ce9e62;
 }
 
 .nav-logo {
@@ -116,6 +144,7 @@ header.sticky ul li a {
     z-index: 10;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
+  
 
   .nav-link {
     color: white;
@@ -168,21 +197,44 @@ img {
   padding: 30px;
 }
 
-button {
+.pad{
+  padding-top: 20px;
+}
+
+.design {
   border: none;
   background: white;
-  padding: 15px 30px;
+  padding: 15px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.btn2 {
-  background: #20C863;
+.cv{
+  background: #ce9e62;
   color: white;
+  border: 2px solid #ce9e62;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+.cv:hover {
+  background: white;
+  color: #ce9e62;
+  border: 2px solid #ce9e62;
+}
+
+.btn2 {
+  background: #ce9e62;
+  color: white;
+}
+
+.btn1 {
+  background: #fff;
+  color: black;
 }
 
 .btn1:hover {
@@ -193,13 +245,18 @@ button {
 
 .btn2:hover {
   background: white;
-  color: #20C863;
-  border: 2px solid #20C863;
+  color: #ce9e62;
+  border: 2px solid #ce9e62;
 }
 
 p {
   margin-top: 20px;
   line-height: 30px;
+}
+
+.heading_bottom{
+  justify-content: center;
+  text-align: center;
 }
 
 .heading .line {
@@ -227,7 +284,7 @@ p {
 }
 
 .heading span {
-  color: #20C863;
+  color: #ce9e62;
 }
 
 .top {
@@ -313,9 +370,10 @@ p {
 /*---------about--------*/
 .btn3 {
   background: none;
-  border: 2px solid #20C863;
-  color: #20C863;
+  border: 2px solid #ce9e62;
+  color: #ce9e62;
   padding: 15px 50px;
+  border-radius: 10px;
 }
 
 .background2 {
@@ -350,7 +408,7 @@ p {
   left: 0;
   width: 50px;
   height: 50px;
-  background: #20C863;
+  background: #ce9e62;
   border-radius: 50%;
   line-height: 50px;
   font-weight: 500;
@@ -398,7 +456,7 @@ p {
   left: 40px;
   width: 70px;
   height: 70px;
-  background: #20C863;
+  background: #ce9e62;
   padding: 10px;
   border-radius: 50%;
 }
@@ -409,8 +467,8 @@ p {
 
 .services hr {
   width: 30px;
-  background: #20C863;
-  border: 2px solid #20C863;
+  background: #ce9e62;
+  border: 2px solid #ce9e62;
   margin-top: 10px;
 }
 
@@ -581,7 +639,7 @@ circle p {
   bottom: 10px;
   left: 17px;
   right: 0px;
-  background-color: #20C863;
+  background-color: #ce9e62;
   overflow: hidden;
   width: 90%;
   height: 90%;
@@ -626,7 +684,7 @@ circle p {
 
 .filter-menu li:hover,
 .filter-menu li.current {
-  background: #20C863;
+  background: #ce9e62;
 }
 
 .filter-item li {
@@ -716,7 +774,7 @@ circle p {
 
 .timeline .content:nth-child(5) .icon,
 .timeline .content:nth-child(3) .icon {
-  background: #20C863;
+  background: #ce9e62;
 }
 
 .content-1 .icon {
@@ -741,7 +799,7 @@ circle p {
 
 .timeline .content:nth-child(5) span,
 .timeline .content:nth-child(3) span {
-  color: #20C863;
+  color: #ce9e62;
 }
 
 .timeline .content {
@@ -787,7 +845,7 @@ circle p {
 }
 
 .Testimonials i {
-  color: #20C863;
+  color: #ce9e62;
   font-size: 80px;
 }
 
@@ -799,7 +857,7 @@ circle p {
 }
 
 .Testimonials h4 {
-  color: #20C863;
+  color: #ce9e62;
   font-size: 20px;
 }
 
@@ -850,7 +908,7 @@ circle p {
 }
 
 .blog .text p {
-  color: #20C863;
+  color: #ce9e62;
   font-size: 18px;
 }
 
@@ -970,7 +1028,12 @@ input, textarea {
 /*---------social_media--------*/
 /*---------footer--------*/
 footer {
-  background: #1A232C;
+  /* background-image: url("/assets/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto; */
+  background: #0F161C;
+
+;
 }
 
 footer .content {
@@ -1015,7 +1078,7 @@ footer .icon i {
 
 footer .box i:hover,
 footer .box li:hover {
-  color: #20C863;
+  color: #ce9e62;
   opacity: 1;
 }
 
