@@ -130,6 +130,10 @@ header.sticky ul li a {
   color: #fff;
 }
 
+.rights{
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -474,6 +478,7 @@ p {
   margin-top: 10px;
 }
 
+
 /*---------services--------*/
 /*---------skills--------*/
 /*---------line skills--------*/
@@ -481,6 +486,7 @@ p {
   display: flex;
   margin-bottom: 10px;
 }
+
 
 .line_content p {
   text-transform: uppercase;
@@ -892,6 +898,10 @@ circle p {
 
 .blog .column .box {
   position: relative;
+}
+
+.rights{
+  font-size: medium;
 }
 
 .blog .column img {
