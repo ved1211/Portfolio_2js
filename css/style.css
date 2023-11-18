@@ -12,9 +12,8 @@ body {
   position: relative;
   height: 100%;
   background: #4b6777;
-
-;
   color: white;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -60,6 +59,7 @@ header {
 
 ;
 }
+
 
 .navbar {
   display: flex;
@@ -259,6 +259,8 @@ p {
   text-align: center;
 }
 
+
+
 .heading .line {
   width: 50px;
   height: 2px;
@@ -308,7 +310,7 @@ p {
 }
 
 .dots i {
-  color: yellow;
+  color: #FEE715;
   font-size: 10px;
   position: absolute;
   border-radius: 50%;
@@ -639,7 +641,7 @@ circle p {
   bottom: 10px;
   left: 17px;
   right: 0px;
-  background-color: #ce9e62;
+  background-color: #E0A96D;
   overflow: hidden;
   width: 90%;
   height: 90%;
@@ -684,7 +686,7 @@ circle p {
 
 .filter-menu li:hover,
 .filter-menu li.current {
-  background: #ce9e62;
+  background: #E0A96D;
 }
 
 .filter-item li {
@@ -774,7 +776,7 @@ circle p {
 
 .timeline .content:nth-child(5) .icon,
 .timeline .content:nth-child(3) .icon {
-  background: #ce9e62;
+  background: #E0A96D;
 }
 
 .content-1 .icon {
@@ -799,7 +801,7 @@ circle p {
 
 .timeline .content:nth-child(5) span,
 .timeline .content:nth-child(3) span {
-  color: #ce9e62;
+  color: #E0A96D;
 }
 
 .timeline .content {
@@ -845,7 +847,7 @@ circle p {
 }
 
 .Testimonials i {
-  color: #ce9e62;
+  color: #E0A96D;
   font-size: 80px;
 }
 
@@ -857,7 +859,7 @@ circle p {
 }
 
 .Testimonials h4 {
-  color: #ce9e62;
+  color: #E0A96D;
   font-size: 20px;
 }
 
